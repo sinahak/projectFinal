@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:id="@+id/main"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     tools:context=".MainActivity3">
+
+ <Button
+     android:id="@+id/button4"
+     android:layout_width="300dp"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="56dp"
+     android:text="Fruits"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.495"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent" />
+
+ <TextView
+     android:id="@+id/textView6"
+     android:layout_width="167dp"
+     android:layout_height="33dp"
+     android:layout_marginTop="28dp"
+     android:text="Search Results for Fruit"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.11"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+ <ImageView
+     android:id="@+id/imageView10"
+     android:layout_width="176dp"
+     android:layout_height="178dp"
+     android:layout_marginStart="20dp"
+     android:layout_marginTop="16dp"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/textView6"
+     app:srcCompat="@drawable/download__6_" />
+
+ <ImageView
+     android:id="@+id/imageView2"
+     android:layout_width="184dp"
+     android:layout_height="176dp"
+     android:layout_marginStart="20dp"
+     android:layout_marginTop="16dp"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.0"
+     app:layout_constraintStart_toEndOf="@+id/imageView10"
+     app:layout_constraintTop_toBottomOf="@+id/textView6"
+     app:srcCompat="@drawable/download__5_" />
+
+ <TextView
+     android:id="@+id/textView8"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="12dp"
+     android:text="Strawberrz20$ in 1 kilo"
+     app:layout_constraintEnd_toEndOf="@+id/imageView10"
+     app:layout_constraintHorizontal_bias="0.793"
+     app:layout_constraintStart_toStartOf="@+id/imageView10"
+     app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+ <TextView
+     android:id="@+id/textView10"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="16dp"
+     android:text="Orange10$ in 1 kilo"
+     app:layout_constraintEnd_toEndOf="@+id/imageView2"
+     app:layout_constraintHorizontal_bias="0.516"
+     app:layout_constraintStart_toStartOf="@+id/imageView2"
+     app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+ <ImageView
+     android:id="@+id/imageView15"
+     android:layout_width="187dp"
+     android:layout_height="193dp"
+     android:layout_marginStart="13dp"
+     android:layout_marginTop="32dp"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.058"
+     app:layout_constraintStart_toEndOf="@+id/imageView12"
+     app:layout_constraintTop_toBottomOf="@+id/textView10"
+     app:srcCompat="@drawable/download__10_" />
+
+ <ImageView
+     android:id="@+id/imageView12"
+     android:layout_width="182dp"
+     android:layout_height="191dp"
+     android:layout_marginStart="12dp"
+     android:layout_marginTop="36dp"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/textView8"
+     app:srcCompat="@drawable/download__8_" />
+
+ <TextView
+     android:id="@+id/textView11"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="20dp"
+     android:text="Avoca10$ in 1 kilo"
+     app:layout_constraintEnd_toEndOf="@+id/imageView12"
+     app:layout_constraintHorizontal_bias="0.551"
+     app:layout_constraintStart_toStartOf="@+id/imageView12"
+     app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+ <TextView
+     android:id="@+id/textView9"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="20dp"
+     android:text="Che30$ in 1 kilo"
+     app:layout_constraintEnd_toEndOf="@+id/imageView15"
+     app:layout_constraintHorizontal_bias="0.641"
+     app:layout_constraintStart_toStartOf="@+id/imageView15"
+     app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+ <ImageView
+     android:id="@+id/imageView18"
+     android:layout_width="44dp"
+     android:layout_height="33dp"
+     android:layout_marginTop="24dp"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.043"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
+
+ <ImageView
+     android:id="@+id/imageView19"
+     android:layout_width="44dp"
+     android:layout_height="42dp"
+     android:layout_marginTop="560dp"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.517"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/button4"
+     app:srcCompat="@drawable/baseline_account_balance_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout >
